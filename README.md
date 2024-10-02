@@ -42,6 +42,4 @@ This is a simple To-Do List application built with React and Vite. It allows use
 ## License
 
 This project is licensed under the MIT License.
-```
 
-You can copy and paste this directly into your **README.md** file. Feel free to customize it further!
