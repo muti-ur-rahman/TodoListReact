@@ -1,7 +1,7 @@
 # TodoListReact
 This repository contains a collection of various JavaScript functionalities
 
-```markdown
+markdown
 # To-Do List Application
 
 This is a simple To-Do List application built with React and Vite. It allows users to add, edit, delete, and mark tasks as complete, providing a clean and efficient user experience.
