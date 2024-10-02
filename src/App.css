@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: Arial, sans-serif;
+  /* background-color: #04254b; */
+  background-image: url('./assets/animated-form-bg.jpeg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  min-width: 400px;
+  text-align: center;
+  text-shadow: #ddd;
+  border-radius: 15px;
+  /* background-color: rgba(0, 0, 2, 0.74); */
+  background-color: rgb(58,38,110);
+  position: relative;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color:rgb(196,132,159);
+}
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #86c9e9;
+  border-radius: 5px;
+  width: 100%;
+
+}
+
+button {
+  /*padding: 10px 20px;
+  flex-shrink: 1;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;*/
+
+  padding: 10px;
+  margin-left: 10px;
+  /* color: #007bff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+  min-width: 50px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(196,132,159);
+}
+
+.task-list {
+  /* list-style-type: none;
+  padding: 0;
+  display: flex;
+*/
+  max-height: 60vh; 
+  min-width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-all;
+  overflow-wrap: break-word; 
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-item button {
+  margin-left: 5px;
+  background-color: rgba(165, 29, 29, 0.918);
+  color: white;
+  border: rgb(196,132,159) 1 px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.task-item button:hover {
+  background-color: darkred;
+}
+
+
+.background-image {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
